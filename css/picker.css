@@ -1,0 +1,131 @@
+﻿html {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+}
+
+body {
+    background-color: #fff !important;
+}
+
+#onenote-picker {
+    width: 600px;
+    background-color: #fff !important;
+}
+
+.on-hidden {
+    display: none;
+}
+
+.on-picker {
+    font-family: 'Segoe UI', 'Segoe UI Web Regular', 'Segoe UI Symbol', 'Helvetica Neue', 'BBAlpha Sans', 'S60 Sans', Arial, sans-serif;
+    cursor: default;
+    font-size: 16px;
+    line-height: 30px;
+    color: #3D3D3D;
+}
+
+.on-picker img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.on-picker input, .on-picker button {
+    outline: none;
+}
+
+.on-root-element {
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+    height: 440px;
+    overflow: auto;
+}
+
+.on-modal-block {
+    position: absolute;
+    z-index: 15000;
+}
+
+.on-main-title {
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.on-main-sub-title {
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.on-header {
+    white-space: nowrap;
+}
+
+.on-header-selected {
+    background-color: #0072C6;
+    color: #fff;
+}
+
+.on-email-note-container {
+    border: 2px solid #ccc;
+    padding: 0 7px 0 7px;
+}
+
+.on-email-note {
+    width: 100%;
+    border: 0px;
+    font-size: 15px;
+}
+
+.on-dialog-buttons {
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.on-dialog-buttons button {
+    line-height: 30px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0px 20px 0px 20px;
+    min-width: 90px;
+}
+
+.on-dialog-buttons button[disabled]{
+    color: #787878;
+    background-color: #a5a5a5;
+    border: 1px solid #ccc;
+}
+
+.on-ok-button {
+    background-color: #0072C6;
+    color: #fff;
+    border: 1px solid #80B9E3;
+}
+
+.on-new-section-button {
+    background-color: #D5D5D5;
+    border: 1px solid #D9D9D9;
+}
+
+.on-error-message {
+    margin-top: 15px;
+    color:  #CF6620;
+    font-size: 13px;
+}
+
+.on-status-pane {
+    float: left;
+    padding-left: 5px;
+}
+
+.on-status-done {
+    color: #006F43;
+}
+
+.on-add-new-item-section input[type=text] {
+    font-family: inherit;
+    font-size: 16px;
+    padding: 2px 5px 3px 5px;
+    border: 1px solid #666;
+}
