@@ -34,8 +34,5 @@ This plugin only supports accessing notebooks stored on OneDrive. If you can't a
 
 == Changelog ==
 
-= 1.0 =
-* Initial release
-
 = 1.1 =
 * Some bug fixes
