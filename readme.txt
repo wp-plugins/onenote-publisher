@@ -9,10 +9,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Compose your WordPress posts on any device, cross-platform, online or offline in OneNote and easily reuse content from all your existing notes.
 
+== Description ==
+
 Compose your WordPress posts on any device, cross-platform, online or offline in [OneNote](http://www.onenote.com/download?WT.mc_id=WordPressP_Publisher_Plugin) and easily reuse content from all your existing notes.
 Manage your writing workflow by keeping posts at various stages of drafting in OneNote. When you're ready to publish, simply pick a page and hit publish from this simple add-in.
 
 == Installation ==
+
 **Installation**:
 
 1. Extract the OneNote Publisher for WordPress plugin (wp-onenote-plugin.zip) to the plugins directory of the WordPress installation.
@@ -24,6 +27,7 @@ Manage your writing workflow by keeping posts at various stages of drafting in O
 1. You need to setup an MSA ClientID & Client Secret. To see the step-by-step instructions for this, click on the link on the bottom of the "Settings" page that says "Click here for instructions to setup your ClientID & Secret".
 
 == Frequently Asked Questions ==
+
 = I can't see all of my OneNote notebooks when using this plugin. Where are they? =
 
 This plugin only supports accessing notebooks stored on OneDrive. If you can't access your notebooks it may be because they are stored locally on your computer, OneDrive for Business, Sharepoint, or another site.
