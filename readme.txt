@@ -39,3 +39,8 @@ This plugin only supports accessing notebooks stored on OneDrive. If you can't a
 
 = 1.0 =
 * Initial release
+
+== Upgrade Notice ==
+
+= 1.1 =
+Browser compatibility bugs fixed in this version
