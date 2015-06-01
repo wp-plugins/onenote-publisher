@@ -6,7 +6,7 @@
 * Description: The OneNote Publisher for WordPress plugin allows you to publish your OneNote pages into your WordPress posts or pages. 
 * Author: Microsoft
 * Author URI: http://dev.onenote.com	
-* Version: 1.0
+* Version: 1.1
 * License: GPLv2 or later (license.txt)
 */
 
