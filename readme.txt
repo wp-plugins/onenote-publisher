@@ -1,4 +1,4 @@
-﻿=== OneNote Publisher ===
+﻿﻿=== Plugin Name ===
 Contributors: onenotedev
 Tags: onenote, integration, notes
 Requires at least: 3.0
@@ -30,7 +30,6 @@ Manage your writing workflow by keeping posts at various stages of drafting in O
 This plugin only supports accessing notebooks stored on OneDrive. If you can't access your notebooks it may be because they are stored locally on your computer, OneDrive for Business, Sharepoint, or another site.
 
 == Screenshots ==
-
 1. Locate the page in your OneNote that you would like to import
 2. Click the OneNote button in the visual editor
 3. Select the page you want to import
@@ -38,6 +37,12 @@ This plugin only supports accessing notebooks stored on OneDrive. If you can't a
 5. The published article
 
 == Changelog ==
+= 1.1 =
+* Some bug fixes
 
 = 1.0 =
 * Initial release
+
+== Upgrade Notice ==
+= 1.1 =
+Browser compatibility bugs fixed in this version
