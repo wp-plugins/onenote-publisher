@@ -114,9 +114,16 @@ class picker extends onwp_html_base {
     var ajaxUrl = '<?php echo admin_url('admin-ajax.php'); ?>';
 
     function pageSelected(pageId) {
-        var form = jQuery('<form method="post"><input name="onenote_page_id" type="hidden"/></form>');
-        form.find('input').val(pageId);
-        jQuery(opener.document.body).append(form);
+        var form = opener.document.createElement('form'),
+            input = opener.document.createElement('input');
+            
+        form.method = 'post';
+        input.type = 'hidden';
+        input.name = 'onenote_page_id';
+        input.value = pageId;
+        form.appendChild(input);
+        opener.document.body.appendChild(form);
+
         form.submit();
         window.close();
     }
